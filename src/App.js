@@ -1,15 +1,12 @@
 import "./App.css";
+import { Container } from "react-bootstrap";
+import RbForms from "./forms";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-       
-      </header>
-    </div>
+    <Container>
+      <RbForms />
+    </Container>
   );
 }
 
